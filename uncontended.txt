@@ -1,0 +1,40 @@
+Object  file uncontended.o at $0000: Z80RMF12
+  Name: uncontended
+  Section data_compiler: 8 bytes
+  Section code_compiler: 530 bytes
+  Section rodata_compiler: 267 bytes
+  Section bss_compiler: 0 bytes
+  Section IM2_VECTOR_PLACEMENT: 324 bytes
+  Section code_user: 17 bytes
+  Section rodata_user: 1 bytes
+  Section smc_user: 0 bytes
+  Section data_user: 0 bytes
+  Section bss_user: 1 bytes
+  Symbols:
+    G A $0000 _tom (section data_compiler) (file uncontended.c:17)
+    G A $0001 _dick (section data_compiler) (file uncontended.c:21)
+    G A $0002 _harry (section data_compiler) (file uncontended.c:25)
+    G A $0003 _eve (section data_compiler) (file uncontended.c:29)
+    G A $0005 _bob (section data_compiler) (file uncontended.c:33)
+    G A $0007 _ava (section data_compiler) (file uncontended.c:37)
+    G A $0000 _multiply2numbers (section code_compiler) (file uncontended.c:45)
+    G A $0014 _key_test (section code_compiler) (file uncontended.c:62)
+    G A $009D _main (section code_compiler) (file uncontended.c:133)
+    G A $0000 _IM2_PUSH_POP (section IM2_VECTOR_PLACEMENT) (file im2.asm:26)
+    G A $000A _SETUP_IM2 (section IM2_VECTOR_PLACEMENT) (file im2.asm:41)
+    G A $0043 _IM2_VECTOR (section IM2_VECTOR_PLACEMENT) (file im2.asm:106)
+    G A $0000 _border_Change_IM2 (section code_user) (file uncontended.asm:21)
+    G A $000D _border_Change_uncontended (section code_user) (file uncontended.asm:32)
+    G A $0000 _xyzzy2 (section rodata_user) (file uncontended.asm:42)
+    G A $0000 _ada (section bss_user) (file uncontended.asm:59)
+  Externs:
+    U         l_mult
+    U         zx_border
+    U         zx_cls
+    U         printf
+    U         in_key_pressed
+    U         _Variable_in_contended
+    U         _Variable_in_Bank0
+    U         _add_two_numbers
+    U         _subtract2numbers
+    U         _border_Change_RAM0
